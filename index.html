@@ -5,311 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile web</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>login</title>
+    <script src="sweetalert.js"></script>
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
-    <div class="container-home" id="homeid">
-        <section class="left-home">
-            <div class="content-left-home">
-                <img src="./img/logo1.png" alt="logo" class="logo">
-                <h1>WELCOME TO <br> <span>MY WEBSITE</span></h1>
-                <p>In this website there are 3 sections,
-                    namely home, about, and contact.
-                    it's all about me, so let's explore
-                    this website</p>
-                <a href="#biography">
-                    <div class="button-down-home">
-                        <img src="./img/V3.png" alt="" class="arrowdownHome">
-                    </div>
-                </a>
-            </div>
-        </section>
-        <section class="right-home">
-            <div class="navigation">
-                <div class="explorer">
-                    <div class="navigation-atribut">
-                        <span class="explorer-atribut1"></span>
-                        <span class="explorer-atribut2"></span>
-                        <span class="explorer-atribut3">
-                            <img src="./img/v1.png" alt="" width="130px">
-                        </span>
-                    </div>
-                    <div class="navigation-text">
-                        <a href="#biography">
-                            <h2>Biography</h2>
-                            <p>Story About Me</p>
-                        </a>
-                    </div>
+    <div class="container">
+        <img src="./img/logo.png" alt="logo" class="logo">
+        <div class="container-login">
+            <h2>Welcome Back</h2>
+            <h6>Ready for explore?</h6>
+            <form id="form">
+                <div class="name-input">
+                    <h5>Username</h5>
+                    <input type="text" id="username" autocomplete="off" required>
                 </div>
-
-                <div class="home">
-                    <div class="navigation-atribut">
-                        <span class="home-atribut1"></span>
-                        <span class="home-atribut2"></span>
-                        <span class="home-circle1"></span>
-                    </div>
-                    <div class="navigation-text">
-                        <a href="#homeid">
-                            <h2>Home</h2>
-                            <p>Back to home</p>
-                        </a>
-                    </div>
+                <div class="name-input">
+                    <h5>Password</h5>
+                    <input type="password" id="password" autocomplete="off" required>
                 </div>
-                <div class="contact">
-                    <div class="navigation-atribut">
-                        <span class="contact-atribut1"></span>
-                        <span class="contact-atribut2"></span>
-                        <span class="contact-atribut3">
-                            <img src="./img/v1.png" alt="" width="130px">
-                        </span>
-                    </div>
-                    <div class="navigation-text">
-                        <a href="#form">
-                            <h2>Contact</h2>
-                            <p>Contact me for more</p>
-                        </a>
-                    </div>
+                <div class="button-form">
+                    <button type="submit">
+                        <h3>Sign in</h3>
+                    </button>
                 </div>
-                <div class="about">
-                    <div class="navigation-atribut">
-                        <span class="about-atribut1"></span>
-                        <span class="about-atribut2"></span>
-                        <span class="about-atribut3"></span>
-                    </div>
-                    <div class="navigation-text">
-                        <a href="#aboutMe">
-                            <h2>Dashboard</h2>
-                            <p>Short about me</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-
-
-
-
-
-
-    <div class="container-biography" id="biography">
-        <div class="biography" >
-            <div class="navbio">
-                <a href="#biography"><h5>Biography</h5></a>
-                <a href="#aboutMe"><h6>Dashboard</h6></a>
-                <a href="#form"><h6>Contact</h6></a>
-            </div>
-            <div class="left-bio">
-                <p>Introduction</p>
-                <p>My name is Muhammad Miftah Farid</p>
-                <span class="linep"></span>
-                <p>You can call me farid
-                    i was graduated from Senior Hight School 11 Pinrang
-                </p>
-                <p>I have two futsal teams called firework and excel where 
-                    I am the captain of the club team
-                </p>
-                <span class="linep"></span>
-                <p>Let's be my friendo</p>
-            </div>
-            <div class="right-bio">
-                <h1>An <br>
-                    Introduction <br>
-                    of Human  <br>
-                    Spesies
-                </h1>
-            </div>
-            <h1 class="right-top-bio">An <br>
-                Introduction <br>
-                of Human  <br>
-                Spesies
-            </h1>
-            <img src="./img/biobg.jpg" alt="picture" class="far">
+            </form>
         </div>
-        
-    </div>
-
-
-
-
-
-
-
-
-    <div class="container-aboutMe">
-        <div class="aboutMe-grid">
-            <section class="aboutMe-main" id="aboutMe">
-                <div class="about-main-left">
-                    <h2>Dashboard</h2>
-                    <div class="card-name">
-                        <img src="./img/icon1.png" alt="icon1" class="icon1">
-                        <div class="text-card-name">
-                            <h4 id="hello">Hello, I am</h4>
-                            <h3>Farid</h3>
-                        </div>
-                    </div>
-                    <div class="card-nimclass">
-                        <h4>210210501044</h4>
-                        <h3>Tekom A</h3>
-                    </div>
-                    <a href="#form">
-                        <div class="button-down-about">
-                            <h5>Scroll down</h5>
-                            <img src="./img/v4.png" alt="v4">
-                        </div>
-                    </a>
-                    <a href="#biography">
-                        <div class="button-up-about">
-                            <h5>Scroll up</h5>
-                            <img src="./img/v5.png" alt="v4">
-                        </div>
-                    </a>
-                    <img src="./img/myfoto.png" alt="myfoto1" class="myfoto">
-                    <div class="about-icon">
-                        <div class="circletext">
-                            <div class="circle">
-                                <img src="./img/icon2.png" alt="icon2">
-                                <span class="line-icon"></span>
-                            </div>
-                            <h5>pinrang</h5>
-                        </div>
-                        <div class="circletext design">
-                            <div class="circle">
-                                <img src="./img/icon4.png" alt="icon2">
-                            </div>
-                            <h5>Design</h5>
-                        </div>
-                    </div>
-                    <div class="about-icon right">
-                        <div class="circletext fotographer">
-                            <div class="circle">
-                                <img src="./img/icon3.png" alt="icon2">
-                            </div>
-                            <h5>Fotographer</h5>
-                        </div>
-                        <div class="circletext traveler">
-                            <div class="circle">
-                                <img src="./img/icon5.png" alt="icon2">
-                            </div>
-                            <h5>traveler</h5>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <section class="aboutMe-hoby">
-                <h2>Hobby</h2>
-
-                <div class="home">
-                    <video class="video-slide active" src="./img/football.mp4" autoplay loop muted></video>
-                    <video class="video-slide" src="./img/badminton.mp4" autoplay loop muted></video>
-                    <video class="video-slide" src="./img/jatoh.mp4" autoplay loop muted style="width: 150px;"></video>
-                </div>
-                <div class="slider">
-                    <div class="button-slider active"></div>
-                    <div class="button-slider"></div>
-                    <div class="button-slider"></div>
-
-                </div>
-            </section>
-
-            <section class="aboutMe-skill">
-                <h2 class="skill-text">Future Goals</h2>
-                <div class="circle-container">
-                    <div class="circle">
-                        <h2 class="web-developer">Front End</h2>
-                        <img src="./img/Zanzi illustrations_/Scenes/2x/media, web development _ website, webpage, browser, image, layout, picture, photo, woman, people@2x.png"
-                            alt="web" class="webdev-img">
-                    </div>
-                </div>
-            </section>
+        <div class="image-login">
+            <img src="./img/lock.png" alt="">
+            <h3>Sign in to explore</h3>
         </div>
     </div>
-
-    <div class="container-contactMe" id="contactMeid">
-        <div class="contactme">
-            <div class="form" id="form">
-                <form  onsubmit="contact()">
-                    <div class="form-name">
-                        <h3>FULL NAME</h3>
-                        <input type="text" name="fullname" id="fullname" placeholder="Enter your name" autocomplete="off" required >
-                    </div>
-                    <div class="form-name email">
-                        <h3>EMAIL</h3>
-                        <input type="email" name="email" id="email" placeholder="Enter your email address" autocomplete="off" required>
-                    </div>
-                    <div class="form-name message">
-                        <h3>MESSAGE</h3>
-                        <input type="textarea" id="message" placeholder="Send your message" utocomplete="off" required >
-                    </div>
-                    <button class="button-form">
-                        <h3>Send</h3>
-                    <button>
-                </form>
-            </div>
-            <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.0132202851664!2d119.64904441543457!3d-3.80722128966867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d944cde49c99bdf%3A0xaf2c78d3eee021dc!2sJl.%20Kijang%2C%20Macorawalie%2C%20Kec.%20Watang%20Sawitto%2C%20Kabupaten%20Pinrang%2C%20Sulawesi%20Selatan%2091212!5e0!3m2!1sid!2sid!4v1663597381416!5m2!1sid!2sid"
-                    width="100%" height="100%" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="wa">
-                <h1>Contact</h1>
-            </div>
-
-            <div class="sosmed">
-                <a href="https://open.spotify.com/playlist/6TeLD8ssxZowXiTHC0GEcP?si=3c77fad968734926"
-                    target="_blank"><img src="./img/Spotify.png" alt="spotify" width="40px"></a>
-                <a href="https://id.pinterest.com/muhammadmiftaf/inspirasi-k/" target="_blank"><img
-                        src="./img/pinterest.png" alt="spotify" width="40px"></a>
-                <a href="https://www.instagram.com/mfrd_11/" target="_blank"><img src="./img/Instagram.png"
-                        alt="spotify" width="40px"></a>
-                <a href="https://web.facebook.com/muhmifta.farid/" target="_blank"><img src="./img/Facebook.png"
-                        alt="spotify" width="40px"></a>
-                <a href="https://discord.com/channels/@me" target="_blank"> <img src="./img/Discord.png" alt="spotify"
-                        width="40px"></a>
-            </div>
-
-            <a href="#aboutMe">
-                <div class="button-up-contact">
-                    <h5>Scroll up</h5>
-                    <img src="./img/v5.png" alt="v4" width="15px">
-                </div>
-            </a>
-
-        </div>
-    </div>
-
     <script>
-        const buttonSlider = document.querySelectorAll(".button-slider");
-        const videoSlide = document.querySelectorAll(".video-slide");
-        var sliderNav = function (manual) {
-            buttonSlider.forEach((btn) => {
-                btn.classList.remove("active");
-            });
-            buttonSlider[manual].classList.add("active");
-            videoSlide.forEach((slide) => {
-                slide.classList.remove("active");
-            });
-            videoSlide[manual].classList.add("active");
-        }
-        buttonSlider.forEach((btn, i) => {
-            btn.addEventListener("click", () => {
-                sliderNav(i);
-            });
-        });
+        let logname = ["farid", "hadal", "arsan"];
+        let logpass = ["12345", "13579", "246810"];
 
-        function contact() {
-            alert("complete message")
-        }
-        
-
+        document.getElementById("form").addEventListener('submit', function (e) {
+            e.preventDefault()
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+            if ((logname[0] == username && logpass[0] == password) || (logname[1] == username && logpass[1] ==
+                    password) || (logname[2] == username && logpass[2] == password)) {
+                window.location.href = "home.html";
+            } else {
+                alert("password wrong");
+            }
+        })
     </script>
-
 </body>
 
 </html>
